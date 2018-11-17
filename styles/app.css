@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(70, 70, 70);
+    color: rgb(250, 250, 250);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin: 1.5em;
+    border: .25em solid rgb(118,118,118);
+    padding: .75em;
+    padding-bottom: 0%;
+    /* size: 8.5in 11in; */
+    width: 600px;
+    min-height: 100%;
+}
+
+footer {
+    clear: both;
+    margin-top: 1.5em;
+    margin-bottom: 3em;
+}
+
+header {
+    margin-bottom: 1.5em;
+}
+
+section {
+    font-weight: 300;
+    margin: 1em;
+    padding: .5em;
+    border-style: solid;
+    border-color: rgb(118,118,118);
+    border-width: 1px 0px 1px 0px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.main {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+img.to-the-right {
+    display: block;
+    float: right;
+    margin: 0 0 2em 2em;
+    padding: .5em;
+    border: 3px solid rgb(118,118,118);
+}
+
+a {
+    font-weight: 900;
+}
+a:link {
+    color: #62BE90; text-decoration: underline;
+}
+a:active {
+    color: #62BE90; text-decoration: underline;
+}
+a:visited {
+    color: #62BE90; text-decoration: underline;
+}
+a:hover {
+    color: #ff0000; text-decoration: none;
+}
+
+p.select-bold {
+    font-weight: bold;
+}
+
+p.slight-bold {
+    font-size: 14px;
+    font-weight: 600;
+}
